@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <canvas id="xxx" width=300 height=300></canvas>
+  <div id=actions class="actions">
+    <svg  id = eraser class="icon" >
+      <use xlink:href="#icon-eraser-ps"></use>
+  </svg>
+  <svg id= pen class=" active icon">
+    <use xlink:href="#icon-pen"></use>
+</svg>
+<svg class="icon" id=clear>
+    <use xlink:href="#icon-clear"></use>
+</svg>
+<svg class="icon" id=download>
+  <use xlink:href="#icon-icons_save"></use>
+</svg>
+  </div>
+  <ol class="colors">
+    <li id="red" class="red active"></li>
+    <li id="green" class="green"></li>
+    <li id="blue" class="blue"></li>
+  </ol>
+    <ol class="sizes">
+      <li id="thin" class="thin"></li>
+      <li id="thick" class="thick"></li>
+    </ol>
+  <script src="./main.js"></script>
+  <script src="//at.alicdn.com/t/font_968181_1k2aav8a3f.js"></script>
+</body>
+</html>
